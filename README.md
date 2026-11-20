@@ -4,9 +4,11 @@
 
 Даёт одно восполняемое очко возрождения в кампании на всех сложностях, кроме «Безумной».
 
+Для повторных возрождений используется последняя доступная точка. Если её перекрывает геометрия, мод запоминает безопасную позицию, которую выбрала игра.
+
 ## Установка
 
-1. Закройте Hatred и распакуйте `Hatred-Unlimited-Respawns-v0.1.0.zip`.
+1. Закройте Hatred и распакуйте `Hatred-Unlimited-Respawns-v0.1.1.zip`.
 2. Запустите `Install.cmd` и укажите папку игры. В Steam выберите **Управление → Просмотреть локальные файлы**.
 3. Запустите игру привычным способом.
 
@@ -14,9 +16,13 @@
 
 Чтобы отключить мод, поставьте `0` у `CampaignRespawn` в `Hatred/Binaries/Win64/ue4ss/Mods/mods.txt` и перезапустите игру.
 
+Для обновления закройте игру и запустите установщик из нового ZIP.
+
 ## English
 
 Replenishes one campaign respawn point after each use on every difficulty except Insane.
+
+Repeated respawns use the last available checkpoint. If the point is blocked, the mod keeps the safe position selected by the game.
 
 Extract the release ZIP, run `Install.cmd`, select your Hatred folder and launch the game as usual. Supports Hatred 1232203 on Windows x64. The Steam executable was verified against its depot manifest. An in-game Steam test is pending.
 
